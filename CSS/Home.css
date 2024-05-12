@@ -1,0 +1,60 @@
+.Home_Display_Container {
+    width: 101vw;
+    height: 70vh;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: gray;
+    position: absolute;
+    top: 0px; /* Adjust this value based on your navbar height */
+    left: 0;
+    z-index: 0; /* Ensure it's above the content */
+    border: solid black 2px;
+}
+.Home_Text_Container{
+    height: auto;
+    width: 80%;
+    border-radius: 20px;
+    border: solid black 2px;
+    margin-top: 10vh;
+    padding: 20px;
+    background-color: grey;
+    box-shadow: #000000 5px 5px 5px;
+    margin-left: 10vw;
+}
+.Home_Text_Container > h1{
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+.Home_Text_Container .Inner_Text{
+    height: auto;
+    margin: auto;
+    width: 90%;
+    background-color: #5f87f7; 
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+.Products_Label{
+    font-size: 30px;
+    margin: auto;
+    color: black;   
+    margin-top: 75vh;
+    text-align: center;
+}
+.Info_Container{
+    height: auto;
+    width: 101vw;
+    position: absolute;
+    margin-top: 10vh;
+    background-color: grey;
+    margin-left: -1vw;
+    padding: 10px;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+}
